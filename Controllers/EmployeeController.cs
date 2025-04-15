@@ -44,7 +44,63 @@ namespace IBASEmployeeService.Controllers
                         Id = 2,
                         Name = "Support"
                     }
+                },
+                new Employee()
+                {
+                    Id = "24",
+                    Name = "Peter Andersen",
+                    Email = "peter@ibas.dk",
+                    Department = new Department()
+                    {
+                        Id = 3,
+                        Name = "IT"
+                    }
+                },
+                new Employee()
+                {
+                    Id = "25",
+                    Name = "Cecilie Pedersen",
+                    Email = "cecilie@ibas.dk",
+                    Department = new Department()
+                    {
+                        Id = 3,
+                        Name = "IT"
+                    }
+                },
+                new Employee()
+                {
+                    Id = "26",
+                    Name = "Andreas Holm",
+                    Email = "andreas@ibas.dk",
+                    Department = new Department()
+                    {
+                        Id = 3,
+                        Name = "IT"
+                    }
+                },
+                new Employee()
+                {
+                    Id = "27",
+                    Name = "Lotte Madsen",
+                    Email = "lotte@ibas.dk",
+                    Department = new Department()
+                    {
+                        Id = 4,
+                        Name = "Kantinen"
+                    }
+                },
+                new Employee()
+                {
+                    Id = "28",
+                    Name = "Omar Saleh",
+                    Email = "omar@ibas.dk",
+                    Department = new Department()
+                    {
+                        Id = 4,
+                        Name = "Kantinen"
+                    }
                 }
+                
             };
             return employees;
         }
